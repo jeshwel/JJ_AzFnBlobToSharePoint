@@ -1,0 +1,28 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "CN_APIKey": "cn-dep-operator",
+    "CN_DeployedEnvironment": "DEV",
+    "CN_FailureEmailAddress": "email1@app.org,email2@app.org",
+    "CN_JobName": "DEPAzureBlobToSharePoint",
+    "CN_DEPArchiveContainerName": "archive",
+    "CN_DEPArchiveFileOnlyWaitQueue": "dep-archive-fileonly-wait",
+    "CN_DEPArchiveFolderOnlyWaitQueue": "dep-archive-folderonly-wait",
+    "CN_DEPArchiveMainQueue": "dep-archive-main",
+    "CN_DEPFileProcessorMainQueue": "dep-fileprocessor-main",
+    "CN_DEPFileProcessorQueueStorageConnection": "FileQueueStorageConnectiondevsa2==",
+    "CN_DEPFileProcessorWaitQueue": "dep-fileprocessor-wait",
+    "CN_ProcessFilesInMB": "5000",
+    "CN_SharePointAdminPwd": "ABCD@123",
+    "CN_SharePointAdminUser": "app-admin@app.org",
+    "CN_SharePointLibraryName": "Libary_TEST_1",
+    "CN_SharePointSiteUrl": "https://demo.sharepoint.com/sites/testsite01/dl",
+    "CN_SMTPHost": "smtptest.app.org",
+    "CN_SourceContainers": "test-container-3|test-container-2",
+    "CN_SourceStorageConnString": "SourceStorageConnectiondevsa1==",
+    "CN_SuccessEmailAddress": "email1@app.org,email2@app.org",
+    "CN_TriggerSchedule": "0 */10 * * * *",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+  }
+}

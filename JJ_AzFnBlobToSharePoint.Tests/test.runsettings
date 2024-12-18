@@ -1,0 +1,22 @@
+﻿<!-- File name extension must be .runsettings -->
+<RunSettings>
+  <RunConfiguration>
+      <EnvironmentVariables>
+          <!-- List of environment variables we want to set-->
+		  <CN_SourceStorageConnString>DefaultEndpointsProtocol=https;AccountName=devsa1;AccountKey=devsa1==;EndpointSuffix=core.windows.net</CN_SourceStorageConnString>
+		  <CN_DEPArchiveContainerName>archive</CN_DEPArchiveContainerName>
+		  <CN_DEPFileProcessorQueueStorageConnection>DefaultEndpointsProtocol=https;AccountName=devsa2;AccountKey=devsa2==;EndpointSuffix=core.windows.net</CN_DEPFileProcessorQueueStorageConnection>
+		  <CN_DEPArchiveFileOnlyWaitQueue>dep-archive-fileonly-wait</CN_DEPArchiveFileOnlyWaitQueue>
+		  <CN_DEPArchiveFolderOnlyWaitQueue>dep-archive-folderonly-wait</CN_DEPArchiveFolderOnlyWaitQueue>
+		  <CN_DEPArchiveMainQueue>dep-archive-main</CN_DEPArchiveMainQueue>
+		  <CN_SuccessEmailAddress>success1@app.org;success2@app.org</CN_SuccessEmailAddress>
+		  <CN_DeployedEnvironment>DEV</CN_DeployedEnvironment>
+		  <CN_EmailQueueStorageConnection>DefaultEndpointsProtocol=https;AccountName=devemail;AccountKey=devemail==;EndpointSuffix=core.windows.net</CN_EmailQueueStorageConnection>
+		  <CN_EmailQueue>dep-jobs-email-queue</CN_EmailQueue>
+		  <CN_DEPFileProcessorWaitQueue>dep-fileprocessor-wait</CN_DEPFileProcessorWaitQueue>
+		  <CN_DEPFileProcessorMainQueue>dep-fileprocessor-main</CN_DEPFileProcessorMainQueue>
+		  <CN_JobName>DEPAzureBlobToSharePoint</CN_JobName>
+		  <CN_FailureEmailAddress>failure1@app.org;</CN_FailureEmailAddress>
+	  </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>

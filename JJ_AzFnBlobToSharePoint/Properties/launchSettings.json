@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CN_FnBlobToSharePoint": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7079",
+      "launchBrowser": false
+    }
+  }
+}
